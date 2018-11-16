@@ -104,7 +104,7 @@ public class SmartImport {
                                     
                             // If .xml file exists, then run the Smart Import from XML file
                             smartImpServ.importObjectsFromXml (fnameAndPath, ExportKey, ExportWithoutCipherData);
-                            smartImpServ.setMatchedFCODefaultImportAction(java.lang.String pFCOObjType, int pSmartImportAction)
+                            smartImpServ.setMatchedFCODefaultImportAction("Dev_ODI_Project", 1)
                             
                                     
                         System.out.println( " Successfully Imported to ODI Work Repository");
