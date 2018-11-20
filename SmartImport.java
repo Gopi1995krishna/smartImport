@@ -104,10 +104,11 @@ public class SmartImport {
                                     
                             // If .xml file exists, then run the Smart Import from XML file
                             smartImpServ.importObjectsFromXml (fnameAndPath, ExportKey, ExportWithoutCipherData);
+                         smartImpServ.setMatchedFCODefaultImportAction(ISmartImportService.PROJECT_OBJECT_NAME, ISmartImportService.SMART_IMPORT_ACTION_CREATE_COPY);
                           //  smartImpServ.setMatchedFCODefaultImportAction("Dev_ODI_Project", 1);
                           // smartImpServ.setMatchedFCODefaultImportAction(java.lang.String pFCOObjType, int pSmartImportAction)
                         // smartImpServ.setMatchedFCODefaultImportAction("SNP_CONTEXT",smartImpServ.SMART_IMPORT_ACTION_CREATE_COPY);
-                          smartImpServ.setMatchedFCODefaultImportAction("SNP_PROJECT.SNP_CONTEXT",smartImpServ.SMART_IMPORT_ACTION_CREATE_COPY);
+                       //   smartImpServ.setMatchedFCODefaultImportAction("SNP_PROJECT.SNP_CONTEXT",smartImpServ.SMART_IMPORT_ACTION_CREATE_COPY);
    
                             
                                     
